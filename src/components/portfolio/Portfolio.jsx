@@ -7,25 +7,29 @@ const items = [
     id: 1,
     title: "Grand Auto Parts",
     img: "/grandautoparts.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Developed a SaaS platform connecting aftermarket parts sellers with customers through a comprehensive product directory. Implemented product mapping features to streamline the association between customers, vendors, and products. Enabled users to generate invoices and bills, improving transactional efficiency Integrated functionality for managing and tracking customer-vendor-product relationships effectively. Utilized modern web technologies for scalability and responsiveness",
+    url: "https://www.grandautoparts.net/",
   },
   {
     id: 2,
     title: "Global Salah Forum",
     img: "/forum.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "A modern Q&A platform built to help users ask questions and receive answers related to Islamic knowledge, with a focus on daily practices like prayer, spirituality, and religious guidance. The platform creates a community-driven space where users can seek clarity and engage in meaningful discussions with others. Designed for ease of use and accessibility, GlobalSalah allows both general users and knowledgeable contributors to interact in a respectful and structured environment. With features like question upvoting, accepted answers, and personalized profiles, it encourages trust and quality within the community. The project aims to bridge the gap between scholars and everyday Muslims by providing a reliable, user-friendly, and globally accessible hub for learning and spiritual growth.",
+    url: "https://globalsalah.com/en/forum",
   },
   {
     id: 3,
-    title: "Vanilla JS App",
+    title: "Taking Online Classes",
     img: "/taking-online-classes.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Developed and deployed a comprehensive online learning platform, enabling students to access education seamlessly. User-friendly interface that facilitates easy navigation and intuitive access to courses and resources. Dynamic class management system, allowing instructors to schedule and deliver virtual classes efficiently. Secure user authentication and role-based access controls for students, teachers, and administrators",
+    url: "https://takingmyclassesonline.com/",
   },
   {
     id: 4,
     title: "Ticket Wala",
     img: "/ticketwala.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Developed a SaaS platform connecting bus owners with customers seeking ticket bookings for their services.Implemented features for managing vendor information, customer bookings, and ticket generation. Streamlined the travel experience by providing a centralized system for booking and managing trips. Enhanced efficiency by automating ticket generation and customer-vendor interactions. Utilized modern web technologies to ensure a responsive and scalable platform for both users and vendors.",
+    url: "https://ticketwala.pk/",
   },
 ];
 
@@ -39,7 +43,7 @@ const Single = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
-    <section >
+    <section>
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>

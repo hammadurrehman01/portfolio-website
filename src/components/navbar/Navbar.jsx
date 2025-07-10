@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {/* Sidebar */}
-      <Sidebar/>
+      <Sidebar />
       <div className="wrapper">
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
@@ -16,16 +16,18 @@ const Navbar = () => {
           Hammad Ur Rehman
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/hammad-ur-rehman-868a4525a/"
+          >
             <img src="/linkedin-logo.png" alt="" />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://github.com/hammadurrehman01">
             <img src="/github-logo.png" alt="" />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://www.fiverr.com/hammadurrehman8">
             <img src="/fiverr-logo.png" alt="" />
           </a>
-        
         </div>
       </div>
     </div>
