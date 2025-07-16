@@ -14,7 +14,7 @@ const items = [
     id: 2,
     title: "Global Salah Forum",
     img: "/forum.png",
-    desc: "A modern Q&A platform built to help users ask questions and receive answers related to Islamic knowledge, with a focus on daily practices like prayer, spirituality, and religious guidance. The platform creates a community-driven space where users can seek clarity and engage in meaningful discussions with others. Designed for ease of use and accessibility, GlobalSalah allows both general users and knowledgeable contributors to interact in a respectful and structured environment. With features like question upvoting, accepted answers, and personalized profiles, it encourages trust and quality within the community. The project aims to bridge the gap between scholars and everyday Muslims by providing a reliable, user-friendly, and globally accessible hub for learning and spiritual growth.",
+    desc: "A modern Q&A platform built to help users ask questions and receive answers related to Islamic knowledge, with a focus on daily practices like prayer, spirituality, and religious guidance. The platform creates a community-driven space where users can seek clarity and engage in meaningful discussions with others. Designed for ease of use and accessibility, GlobalSalah allows both general users and knowledgeable contributors to interact in a respectful and structured environment.",
     url: "https://globalsalah.com/en/forum",
   },
   {
