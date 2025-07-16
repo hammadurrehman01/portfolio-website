@@ -69,7 +69,7 @@ const Services = () => {
             personality, vision, and goals. No templates. Just your brand, done
             right.
           </p>
-          <button>Go</button>
+          <a href="#Contact"><button style={{ width: "100%" }}>Go</button></a>
         </motion.div>
         <motion.div
           className="box"
@@ -81,8 +81,7 @@ const Services = () => {
             Because when your visitors enjoy using your site, they stay longer,
             trust you more — and convert better.
           </p>
-          <button>Go</button>
-        </motion.div>
+          <a href="#Contact"><button style={{ width: "100%" }}>Go</button></a>        </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -93,8 +92,7 @@ const Services = () => {
             platforms that grow with you. From simple sites to complex systems —
             I keep performance, security, and future-proofing in mind.
           </p>
-          <button>Go</button>
-        </motion.div>
+          <a href="#Contact"><button style={{ width: "100%" }}>Go</button></a>        </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -105,7 +103,7 @@ const Services = () => {
             adapt to your feedback, and bring your ideas to life — clearly,
             collaboratively, and without the tech overwhelm.
           </p>
-          <button>Go</button>
+          <a href="#Contact"><button style={{ width: "100%" }}>Go</button></a>
         </motion.div>
       </motion.div>
     </motion.div>

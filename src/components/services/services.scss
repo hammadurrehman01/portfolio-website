@@ -113,11 +113,15 @@
     }
 
     .box {
-      padding: 50px;
+      padding: 40px;
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+
+      button {
+       width: 100%;
+      }
 
       @include mobile {
         border: none;
