@@ -4,9 +4,11 @@
   height: 100%;
   max-width: 1166px;
   margin: auto;
+  margin-top: -30px;
   display: flex;
   align-items: center;
-  gap: 50px;
+  // gap: -50px;
+  // padding-bottom: 100px;
 
   @include mobile {
     width: 100%;
